@@ -1,6 +1,6 @@
 import { useQuery } from '@tanstack/react-query';
 import { getUsers, searchUsers, getUserDetails } from '@/lib/api';
-import { User, UserDetailed } from '@/types/github-types';
+import { User, UserDetailed } from '@/types';
 
 export const useUsers = () => {
   return useQuery<User[], Error>({

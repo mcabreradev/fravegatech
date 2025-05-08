@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { User, UserDetailed, SearchUsersResponse } from '@/types/github-types';
+import { User, UserDetailed, SearchUsersResponse } from '@/types';
 
 const api = axios.create({
   baseURL: 'https://api.github.com'
